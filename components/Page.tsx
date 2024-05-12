@@ -59,17 +59,17 @@ const Page: React.FC<Props> = ({children}) => {
           backgroundColor: "#fafafa",
         }}
       >
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          rel="noopener noreferrer"
-          style={{display: "flex", alignItems: "center", justifyContent: "center"}}
-          target="_blank"
-        >
-          Powered by{" "}
-          <span style={{height: 16, marginLeft: 12}}>
-            <Image alt="Vercel Logo" height={16} src="/vercel.svg" width={72} />
-          </span>
-        </a>
+          <a
+      href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+      rel="noopener noreferrer"
+      style={{display: "flex", alignItems: "center", justifyContent: "center"}}
+      target="_blank"
+    >
+      Powered by{" "}
+      <span style={{height: 16, marginLeft: 12}}>
+        <img alt="Vercel Logo" height={16} src="/vercel.svg" width={72} />
+      </span>
+    </a>
       </footer>
     </div>
   );
